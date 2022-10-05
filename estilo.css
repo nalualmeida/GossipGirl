@@ -1,0 +1,138 @@
+/* main{
+    object-fit: cover; ---- isso é para deixar a imagem certinha em um espao limitado
+} */
+
+*{
+    margin: 0;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    display: flex;
+    background-color: black;
+}
+
+header img{
+    width: 150px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 7px;
+}
+
+div.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+div.header a{
+    margin-right: 20%;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255,238,159);
+    padding: 5px;
+    border-radius: 10px;    
+}
+
+div.header a:hover{
+    background-color: rgb(194, 164, 34);
+    font-size: large;
+}
+
+main{
+    background: rgb(255,238,159);
+    background: linear-gradient(90deg, rgba(255,238,159,1) 0%, rgba(185,182,139,1) 67%, rgba(54,50,5,1) 100%);
+}
+
+main img{
+    width: 100%;
+}
+
+div.main{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+div.esquerda{
+    margin-right: 20px;
+    margin-top: 35px;
+}
+
+div.esquerda a{
+    text-decoration: none;
+    background-color: rgb(194, 164, 34);
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+div.esquerda a:hover{
+    font-size: large;
+    background-color: rgb(95, 81, 16);
+}
+
+div.direita img{
+    height: 265px;
+    width: fit-content;
+    margin-top: 35px;
+    border: 2px solid rgb(194, 164, 34);
+    padding: 7px;
+}
+
+div.titulo{
+    text-align: left;
+    border-bottom: 2px solid rgb(194, 164, 34);
+}
+
+div.texto{
+    text-align: justify;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+}
+
+div.footer{
+    border: 2px solid rgb(194, 164, 34);
+    width: 300px;
+    margin: auto;
+    border-radius: 10px;
+
+}
+
+footer h3{
+    border-bottom: 2px solid rgb(194, 164, 34);
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+footer a{
+    text-decoration: none;
+    background-color: rgb(194, 164, 34);
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    margin: auto;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+footer a:hover{
+    background-color: rgb(95, 81, 16);
+}
+
